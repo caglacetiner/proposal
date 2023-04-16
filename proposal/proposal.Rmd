@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Use of Bank and Credit Cards"
 author: 
-  - Last Name, First Name[^1]
+  - Çetiner, Çağla[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,34 +32,43 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
 
-# Important Information About Midterm
+[^1]: 19080388 , [Github Repo](https://github.com/caglacetiner/proposal.git)
 
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
 
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
-
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
-
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+Recently, the use of debit and credit cards has become quite common in Turkey. The number of bank and credit card usage is increasing and the places used are also changing due to this situation. Now instead of cash, cards are used in every areas. People are starting to not carry money on them, which shows that people are used to debit and credit cards. Debit and credit cards are now used in many areas. Especially in internet shopping, the most important thing is the use of debit and credit cards. Recently, internet expenditures constitute a large part of Turkey's bank and credit card expenditures. The contributing factors will be explored. For this analysis, the data set obtained by the central bank of the Republic of Turkey is used. The data consists of 73 observers and 15 variables. By using the monthly values of the last 5 years, it will be investigated how the difference has changed in terms of variables (clothing, health, food, internet) and which factors have an effect on this.
 
-In this section, mention the purpose and importance of your work in a few paragraphs.
+
+
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+The beginning of the use of debit and credit cards does not date back to ancient times. The idea of card payment was first introduced in a science fiction novel in 1887. This novel is Edward Bellamy's book "Looking Backward Or Life In The Year 2000". At the end of the 18th century, the United States introduced a card that allowed the purchase of goods and services without paying cash. In Turkey, the first credit card use was with Diners Club in 1968 and very few people had this card in those years. [@kaya:2009; @bayrakdarouglu:2015] Since then, the use of bank and credit cards has continued to increase until today. There are many reasons for the increase in the use of debit and credit cards. First of all, according to the study of Evans (2008), the use of debit and credit cards has increased visibly in the last thirty years. Credit cards have helped households (low-income families) buy things they couldn't get with cash, and Credit card loans have led households to have trouble-free consumption throughout their lives. At the same time, it has been observed that it affects the use of debit and credit cards in developed and developing countries.[@Evans:2004] 
+
+Kaynak and Küçükemiroğlu(1995) examined credit card usage behavior in developed and developing countries (Turkey) and stated that the increase in bank and credit card usage is related to socio-economic and technological developments, and that the use of credit cards increases especially in developing countries.[@Kaynak:1995]
+
+Borzekowski and Kiser (2008) examined the payment preferences of consumers such as using debit cards, general purpose credit cards, petrol credit cards or cash and how it is determined. According to them, consumers who are less educated, low-income, middle-aged are found to have fewer credit cards and are more likely to use cash, and those who use debit and credit cards are younger and more educated.[@borzekowski:2008]
+
+However, the consumer Payment Choice Diary was made by the Federal Reserve. They have sought to understand the payment habits of the US population. Kim, Kumar and O’Brien (2016) highlight their findings in October every year since 2016. According to them, as in the findings in 2018, cash accounted for 35 percent of face-to-face payments, and debit cards have been the most preferred payment system in recent years. The results of the 2020 Diary said that many consumers prefer to use cash for daily payments, while others continue to emphasize that they use cash as a backup payment tool even when opting for debit and credit cards. One of the reasons for the increase in the use of credit cards is clearly indicated by the work of platinum in the army province. [@kim:2020]
+
+In the survey conducted by Pilatin (2021) with 425 people on the factors affecting the use of credit cards in Turkey, it was understood that the most important factor in the use of credit cards in the province of Ordu is that credit cards provide the opportunity to shop in installments.[@Pilatin:2021]
+
+One of the other reasons, Ağan (2020), is related to the change of the payment system with covid-19. In the 2019-2020 period, the use of bank and credit cards has increased due to the effects of covid-19 in the world. Especially the 'contactless' feature that came to cards played an important role during the pandemic period. Fear of the virus transmitted by cash, people have moved away from paying cash and started using debit and credit cards. 
+In addition, the use of debit and credit cards has been affected by cultural factors.[@Ağan:2020]
+
+Gul (2014),found significant relationships between the use of bank and credit cards and the increase in tourism demand. With the recent globalization, the tourism sector has had a great importance in the world. And this has led to an increase in tourism in Turkey. The increase in tourism demand is related to the purchasing power and it has been tried to determine the relationship between the spending that comes with the increase in purchasing power and the use of credit cards. Today, the developing card payment system has increased the spending in Turkish tourism. It has been shown that tourists can travel as they wish without the need to convert their money and carry cash. One of the reasons why tourists use credit cards is that they can shop in installments and at the same time, they spend less money with the same income level.[@Gul:2014]
 
 
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
+
+
+
+
 
 \newpage
 # References {#references}
